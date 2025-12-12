@@ -32,6 +32,7 @@ function App() {
     window.navigator.clipboard.writeText(password);
     passRef.current?.select();
     passRef.current?.setSelectionRange(0,51);
+    alert("passwrod copied");
   },[password]);
 
   return (
